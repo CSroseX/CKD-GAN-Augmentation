@@ -62,15 +62,9 @@ Our approach combines **SMOTE** and **ACGAN** for hybrid data augmentation.
 | **EfficientNetV2** | 97.6% | 97.0% | ~455 min |
 | **MobileNetV2** | 97.2% | 95.1% | ~111 min |
 
-![Training Curves](results/accuracy_curves/vgg16_training.png)
-
 > Hybrid augmentation improved model robustness and reduced overfitting, producing clinically relevant accuracy scores.
 
 ---
-
-
-Synthetic datasets, trained models, and code are hosted in this repository.
-All materials are shared under the CC BY 4.0 License.
 
 👥 Authors
 Princy Randhawa – Dayananda Sagar University
