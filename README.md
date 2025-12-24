@@ -6,18 +6,18 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 The project presents a **hybrid augmentation framework** combining **SMOTE (Synthetic Minority Oversampling Technique)** and **ACGAN (Auxiliary Classifier Generative Adversarial Network)** to balance CT scan datasets for **chronic kidney disease (CKD)** detection.  
-We use transfer learning models (**VGG16**, **MobileNetV2**, **EfficientNetV2**) to classify kidney images as *Normal, Cyst, Tumor,* or *Stone*.
+Used transfer learning models (**VGG16**, **MobileNetV2**, **EfficientNetV2**) to classify kidney images as *Normal, Cyst, Tumor,* or *Stone*.
 
 ---
 
 
-## 🧬 Dataset
+##  Dataset
 
-We used the publicly available **CT KIDNEY DATASET: Normal-Cyst-Tumor and Stone** from Kaggle:  
-🔗 [https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone)
+Used the publicly available **CT KIDNEY DATASET: Normal-Cyst-Tumor and Stone** from Kaggle:  
+ [https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone)
 
 | Category | Sample Image |
 |-----------|--------------|
@@ -28,7 +28,7 @@ We used the publicly available **CT KIDNEY DATASET: Normal-Cyst-Tumor and Stone*
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 Our approach combines **SMOTE** and **ACGAN** for hybrid data augmentation.
 
@@ -46,7 +46,7 @@ Our approach combines **SMOTE** and **ACGAN** for hybrid data augmentation.
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 | Model | Original Dataset Accuracy | Synthesized Dataset Accuracy | Training Duration |
 |:------|:--------------------------:|:-----------------------------:|:-----------------:|
