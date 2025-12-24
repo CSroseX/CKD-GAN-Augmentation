@@ -1,4 +1,4 @@
-# 🧠 Enhanced Chronic Kidney Disease Detection using Hybrid GAN and SMOTE Augmentation
+# Enhanced Chronic Kidney Disease Detection using Hybrid GAN and SMOTE Augmentation
 
 ![Python](https://img.shields.io/badge/Python-3.9+-green.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
