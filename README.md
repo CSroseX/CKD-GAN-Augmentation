@@ -8,10 +8,6 @@
 
 ## 📖 Overview
 
-This repository accompanies the research paper:
-
-> **"Enhanced Chronic Kidney Disease Detection Using Auxiliary Classifier GANs and Hybrid Data Augmentation on CT Imaging"**  
-
 The project presents a **hybrid augmentation framework** combining **SMOTE (Synthetic Minority Oversampling Technique)** and **ACGAN (Auxiliary Classifier Generative Adversarial Network)** to balance CT scan datasets for **chronic kidney disease (CKD)** detection.  
 We use transfer learning models (**VGG16**, **MobileNetV2**, **EfficientNetV2**) to classify kidney images as *Normal, Cyst, Tumor,* or *Stone*.
 
